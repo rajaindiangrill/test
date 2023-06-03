@@ -1,0 +1,306 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    width: 85%;
+    position: absolute;
+    height: 200px;
+    z-index: 10;
+    top: 0px;
+}
+
+.navbarEdits {
+    justify-content: center;
+}
+
+.navbar .nav-link {
+    color: white;
+    width: 120px;
+    margin: 0px 12px;
+    border-radius: 16px;
+    background: linear-gradient(360deg, #FF0300 -115.17%, #FD8302 62.92%);
+    text-align: center;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, .25);
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.navbar-toggler {
+    border: 0 !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28 255, 255, 255, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    background-color: #FD8302;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.containerForm {
+    margin-top: 20px;
+    width: 80%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 120px;
+}
+
+form {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, .25);
+    height: 600px;
+    margin: 20px;
+}
+
+form h3 {
+    color: #555;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+form input,
+form textarea {
+    border: 0px;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background: #f5f5f5;
+    font-size: 16px;
+}
+
+form button {
+    padding: 15px;
+    background: #ff8153;
+    color: #fff;
+    font-size: 18px;
+    border: 0px;
+    border-radius: 30px;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+}
+
+.map {
+    border: 2px solid rgb(228, 228, 228) !important;
+    border-radius: 8px;
+    box-sizing: border-box;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, .25);
+    margin: 20px;
+}
+
+
+.contactDetails {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    width: 70%;
+    height: auto;
+    flex-wrap: wrap;
+    /* background-color: rgb(162, 162, 162); */
+}
+
+.locationDetails,
+.phoneDetails,
+.emailDetails {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    margin: 12px;
+    /* border: 1px solid white; */
+}
+
+.locationDetails p,
+.phoneDetails p,
+.emailDetails p {
+    margin: 0px 8px;
+    font-weight: 600;
+    color: #555;
+}
+
+#mobileImage {
+    display: none;
+}
+
+#largeImage {
+    display: inline-block;
+}
+
+.testimonials img {
+    margin-top: 8px;
+    width: 80%;
+}
+
+#footerID {
+    margin-top: 160px;
+    width: 100vw;
+    height: 360px;
+    background-color: rgb(242, 242, 242);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 60px;
+    font-weight: 400;
+}
+
+.FooterlogoSection,
+.addressFollowus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+.timingsContactNumber {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 0px;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+.FooterlogoSection p {
+    margin-top: 12px;
+}
+
+
+.address p {
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.FollowUS {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.FollowUS p a {
+    margin: 0px 4px;
+}
+
+.timingsContactNumber p {
+    margin: 4px 0px;
+}
+
+#orderAt {
+    background-color: #FD8302;
+    padding: 16px;
+    border-radius: 50px;
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.timings {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 0px;
+}
+
+@media (max-width: 990px) {
+    .navbar {
+        width: 85%;
+        position: absolute;
+        height: 200px;
+        z-index: 10;
+        top: 0px;
+    }
+
+    .navbarEdits {
+        justify-content: center;
+    }
+
+    .navbar .nav-link {
+        color: white;
+        width: 100%;
+        margin: 0px 12px;
+        background: linear-gradient(360deg, #FF0300 -115.17%, #FD8302 62.92%);
+        text-align: center;
+        border: 1px solid white;
+        border-radius: 4px;
+    }
+
+    .nav-link:hover {
+        color: black;
+    }
+
+    #largeImage {
+        display: none;
+    }
+
+    #mobileImage {
+        display: inline-block;
+    }
+
+}
+
+@media (max-width:750px) {
+    #footerID {
+        margin-top: 160px;
+        width: 100vw;
+        height: auto;
+        background-color: rgb(242, 242, 242);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 60px;
+        font-weight: 400;
+    }
+
+    .FooterlogoSection {
+        order: 1;
+        margin-top: 40px;
+    }
+
+    .addressFollowus {
+        order: 3;
+        margin-top: 40px;
+    }
+
+    .timingsContactNumber {
+        order: 2;
+        margin-top: 40px;
+    }
+
+    .HeroImage {
+        display: none;
+    }
+
+    .aboutUs {
+        margin-top: 200px;
+    }
+
+}

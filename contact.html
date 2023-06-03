@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ContactForm</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body> 
+    <nav class="navbar navbar-expand-lg bg-transparent">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="images/Logo5.png" alt="Logo" width="160" class="d-inline-block align-text-top">               
+            </a>
+
+            <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>      
+
+            <div class="collapse navbar-collapse navbarEdits" id="navbarTogglerDemo03">
+                <ul class="navbar-nav ">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#aboutID">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#testimonialsID">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>          
+                </ul>    
+            </div>
+        </div>
+    </nav>
+
+    <div class="contactDetails">
+        <div class="locationDetails">
+            <img src="images/location.png" width="64px" height="64px">
+            <p>538 Highway 8, Unit 101
+                <br>Stoney Creek, ON,
+                <br>L8G5G2, Canada
+            </p>
+        </div>
+       
+        <div class="phoneDetails">
+            <img src="images/telephone.png" width="64px" height="64px">
+            <p>905-930-9331</p>
+        </div>
+        
+        <div class="emailDetails">
+            <img src="images/email.png" width="64px" height="64px">
+            <p>rajaindiangrill@gmail.com</p>
+        </div>
+
+        
+    </div>
+
+    <div class="containerForm">   
+        <form action="https://formsubmit.co/rajaindiangrill@gmail.com" method="POST">
+            <h3>GET IN TOUCH</h3>            
+            <input type="text" name="name" placeholder="Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="text" name="phone" placeholder="Phone Number" required>
+            <textarea name="message" rows="4" placeholder="How can we help you?"></textarea>
+            <input type="hidden" name="_next" value="http://127.0.0.1:3000/thankyou.html">
+            <input type="hidden" name="_subject" value="New message from Raja's Indian Grill Online!">
+            <input type="hidden" name="_captcha" value="false">
+            <button type="submit">SUBMIT</button>
+        </form>
+
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2907.725286398666!2d-79.71510448451636!3d43.21525097913886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882ca3896567f013%3A0xc0a0376069c82fe5!2sRaja&#39;s%20Indian%20Grill!5e0!3m2!1sen!2sca!4v1685641561491!5m2!1sen!2sca" width="600" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+    </div> 
+
+    <footer id="footerID">
+        <div class="FooterlogoSection">
+            <img src="images/Logo.png" alt="" width="100px">
+            <p>© Raja's Indian Grill 2023</p>
+        </div>
+
+        <div class="addressFollowus">
+            <p id="orderAt">Order at: 905-930-9331</p>
+            <div class="address">
+                <p>538 Highway 8, Unit 101,</p> 
+                <p>Stoney Creek, ON,</p>
+                <p>L8G5G2</p>
+            </div>   
+            <div class="FollowUS">
+                <p>Follow us on:
+                    <a href="https://www.instagram.com/rajaindiangrill/"><img src="images/insta.png" alt="" width="24px"></a>
+                    <a href="#"><img src="images/fb.png" alt="" width="24px"></a>
+                </p>
+            </div>        
+        </div>
+
+        <div class="timingsContactNumber">         
+            <div class="timings">
+                <p>Mon: 11am to 9pm</p>
+                <p>Tue: 11am to 9pm</p>
+                <p>Wed: 11am to 9pm</p>
+                <p>Thu: 11am to 9pm</p>
+                <p>Fri: 11am to 10pm</p>
+                <p>Sat: 11am to 10pm</p>
+                <p>Sun: 12pm to 9pm</p>
+            </div>         
+        </div>
+        
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>

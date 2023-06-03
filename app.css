@@ -1,0 +1,326 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    width: 85%;
+    position: absolute;
+    height: 200px;
+    z-index: 10;
+    top: 0px;
+}
+
+.navbarEdits {
+    justify-content: center;
+}
+
+.navbar .nav-link {
+    color: white;
+    width: 120px;
+    margin: 0px 12px;
+    border-radius: 16px;
+    background: linear-gradient(360deg, #FF0300 -115.17%, #FD8302 62.92%);
+    text-align: center;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, .25);
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.navbar-toggler {
+    border: 0 !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28 255, 255, 255, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    background-color: #FD8302;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.HeroImage {
+    width: 100%;
+    margin-bottom: 120px;
+}
+
+.thankyouMessage {
+    width: 80%;
+    height: 300px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgContainer {
+    margin-top: 200px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgContainer img {
+    width: 80%;
+}
+
+.aboutUs {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid blue; */
+}
+
+.aboutUsTextBlock {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.aboutUsText {
+    width: 50%;
+    /* border: 5px solid green; */
+    flex: 2 2 800px;
+}
+
+.aboutImg {
+    /* border: 5px solid green; */
+    text-align: center;
+    flex: 2 2 400px;
+}
+
+.resImages {
+    width: 100%;
+    /* border: 1px solid red; */
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.resImageContainer1 img {
+    width: 300px;
+    flex: 2 2 100px;
+    /* border: 2px solid blue; */
+    margin: 10px;
+}
+
+.resImageContainer2 img {
+    width: 300px;
+    flex: 2 2 100px;
+    /* border: 2px solid blue; */
+    margin: 10px;
+}
+
+.menu {
+    margin-top: 80px;
+    width: 70%;
+}
+
+.menu img {
+    width: 100%;
+}
+
+.testimonials {
+    margin-top: 100px;
+    width: 70%;
+    text-align: center;
+}
+
+#mobileImage {
+    display: none;
+}
+
+#largeImage {
+    display: inline-block;
+}
+
+.testimonials img {
+    margin-top: 8px;
+    width: 80%;
+}
+
+/* footer img {
+    margin-top: 200px;
+    width: 100%;
+} */
+
+#footerID {
+    margin-top: 160px;
+    width: 100vw;
+    height: 360px;
+    background-color: rgb(242, 242, 242);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 60px;
+    font-weight: 400;
+}
+
+.FooterlogoSection,
+.addressFollowus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+.timingsContactNumber {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 0px;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+.FooterlogoSection p {
+    margin-top: 12px;
+}
+
+
+.address p {
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.FollowUS {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.FollowUS p a {
+    margin: 0px 4px;
+}
+
+.timingsContactNumber p {
+    margin: 4px 0px;
+}
+
+#orderAt {
+    background-color: #FD8302;
+    padding: 16px;
+    border-radius: 50px;
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.timings {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 0px;
+}
+
+@media (max-width: 990px) {
+    .navbar {
+        width: 85%;
+        position: absolute;
+        height: 200px;
+        z-index: 10;
+        top: 0px;
+    }
+
+    .navbarEdits {
+        justify-content: center;
+    }
+
+    .navbar .nav-link {
+        color: white;
+        width: 100%;
+        margin: 0px 12px;
+        background: linear-gradient(360deg, #FF0300 -115.17%, #FD8302 62.92%);
+        text-align: center;
+        border: 1px solid white;
+        border-radius: 4px;
+    }
+
+    .nav-link:hover {
+        color: black;
+    }
+
+    .aboutUsText {
+        padding: 24px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    #largeImage {
+        display: none;
+    }
+
+    #mobileImage {
+        display: inline-block;
+    }
+
+}
+
+@media (max-width:750px) {
+    #footerID {
+        margin-top: 160px;
+        width: 100vw;
+        height: auto;
+        background-color: rgb(242, 242, 242);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 60px;
+        font-weight: 400;
+    }
+
+    .FooterlogoSection {
+        order: 1;
+        margin-top: 40px;
+    }
+
+    .addressFollowus {
+        order: 3;
+        margin-top: 40px;
+    }
+
+    .timingsContactNumber {
+        order: 2;
+        margin-top: 40px;
+    }
+
+    .HeroImage {
+        display: none;
+    }
+
+    .aboutUs {
+        margin-top: 200px;
+    }
+
+}
