@@ -105,22 +105,71 @@ form button {
     margin: 20px;
 }
 
+.contactandOrderboxes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 76%;
+    margin-top: 200px;
+    flex-wrap: wrap;
+}
+
+.orders {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    min-height: 200px;
+    background-color: #f5f4f4;
+    border-radius: 20px;
+    flex: 2 2 600;
+    margin: 0px 12px 12px 0px;
+}
+
+.orders h1 {
+    color: #ff8153;
+}
+
+.orders h5 {
+    color: rgb(92, 92, 92);
+}
 
 .contactDetails {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 200px;
-    width: 70%;
-    height: auto;
+    width: 600px;
+    background-color: #f5f4f4;
+    border-radius: 20px;
+    min-height: 200px;
+    padding: 24px;
     flex-wrap: wrap;
-    /* background-color: rgb(162, 162, 162); */
+    flex: 2 2 600;
+    margin: 0px 12px 12px 0px;
 }
 
-.locationDetails,
-.phoneDetails,
+.locationDetails {
+    width: auto;
+    display: flex;
+}
+
+.phoneANDemail {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.phoneDetails {
+    width: auto;
+    display: flex;
+    align-items: center;
+    margin: 12px;
+    /* border: 1px solid white; */
+}
+
 .emailDetails {
-    width: 300px;
+    width: auto;
     display: flex;
     align-items: center;
     margin: 12px;
@@ -225,7 +274,7 @@ form button {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
+    align-items: flex-start;
     margin: 0px;
 }
 
